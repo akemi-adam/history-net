@@ -20,11 +20,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #ff0000;
 }
 
 a {
-  color: #1e1e1e;
+  color: #ff0000;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -145,7 +145,7 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #ff0000;
   font-size: 1.1rem;
 }
 
@@ -300,7 +300,7 @@ a:hover {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #1B1B1B;
+  background-color: #ff0000;
   width: 25px;
 }
 
@@ -472,7 +472,7 @@ a:hover {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(255, 0, 0, 0.9);
   padding: 12px 0;
 }
 
@@ -880,7 +880,7 @@ a:hover {
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #ff0000;
 }
 
 .service-box .ico-circle {
@@ -1335,7 +1335,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul span {
-  color: #1e1e1e;
+  color: #ff0000;
 }
 
 .blog-wrapper .blockquote {
@@ -1380,7 +1380,7 @@ a:hover {
 }
 
 .box-comments .list-comments span {
-  color: #1e1e1e;
+  color: #ff0000;
   font-style: italic;
 }
 
