@@ -13,6 +13,9 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -21,6 +24,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script src="./assets/map/mapdata.js"></script>
+  <script src="./assets/map/worldmap.js"></script>
 
   <!-- =======================================================
   * Template Name: DevFolio
@@ -78,7 +83,7 @@
     </div>
   </div><!-- End Hero Section -->
 
-  <main id="main" class="mb-5">
+  <main id="main" class="mb-1">
     <!-- ======= About Section ======= -->
     <section id="about" class="about-mf sect-pt4 route">
       <div class="container">
@@ -127,6 +132,12 @@
       </div>
     </section>
 
+    <!-- ======= Map Section ======= -->
+    <section class="section-counter paralax-mf mx-auto my-0" style="">
+        <div class="mx-5 w-75" id="map">
+        </div>
+    </section>
+
     <!-- ======= Counter Section ======= -->
     <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
       <div class="overlay-mf"></div>
@@ -135,44 +146,46 @@
           <div class="col-sm-3 col-lg-3">
             <div class="counter-box counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-check"></i></span>
+                <span class="ico-circle"><i class="fa-solid fa-skull"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">WORKS COMPLETED</span>
+                <p data-purecounter-start="0" data-purecounter-end="80000000" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">NÚMERO DE MORTOS</span>
               </div>
             </div>
           </div>
           <div class="col-sm-3 col-lg-3">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+                <span class="ico-circle"><i class="fas fa-calendar-alt"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">YEARS OF EXPERIENCE</span>
+                <p data-purecounter-start="0" data-purecounter-end="2191" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">DIAS DE GUERRA</span>
               </div>
             </div>
           </div>
           <div class="col-sm-3 col-lg-3">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-people"></i></span>
+                <span class="ico-circle"><i class="fa fa-flag" aria-hidden="true"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">TOTAL CLIENTS</span>
+                <p data-purecounter-start="0" data-purecounter-end="72" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">PAÍSES ENVOLVIDOS</span>
               </div>
             </div>
           </div>
           <div class="col-sm-3 col-lg-3">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-award"></i></span>
+                <span class="ico-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 16" width="30" height="30" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"> <path d="m2.75 9.25 1.5 2.5 2 1.5m-4.5 0 1 1m1.5-2.5-1.5 1.5m3-1 8.5-8.5v-2h-2l-8.5 8.5"/> <path d="m10.25 12.25-2.25-2.25m2-2 2.25 2.25m1-1-1.5 2.5-2 1.5m4.5 0-1 1m-1.5-2.5 1.5 1.5m-7.25-5.25-4.25-4.25v-2h2l4.25 4.25"/> </svg>
+                </span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">AWARD WON</span>
+                <p data-purecounter-start="0" data-purecounter-end="582" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">BATALHAS</span>
               </div>
             </div>
           </div>
