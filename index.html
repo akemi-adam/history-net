@@ -27,6 +27,11 @@
   <script src="./assets/map/mapdata.js"></script>
   <script src="./assets/map/worldmap.js"></script>
 
+  <!-- Prevent Form -->
+  <script>
+    document.getElementById('form-country').addEventListener('click', (e) => e.preventDefault())
+  </script>
+
   <!-- =======================================================
   * Template Name: DevFolio
   * Updated: May 30 2023 with Bootstrap v5.3.0
@@ -133,9 +138,33 @@
     </section>
 
     <!-- ======= Map Section ======= -->
-    <section class="section-counter paralax-mf mx-auto my-0" style="">
+    <section class="section-counter paralax-mf mx-auto my-0 d-none d-md-block" style="">
         <div class="mx-5 w-75" id="map">
         </div>
+    </section>
+    <!-- ======= Countries Info Section (only for dispositives with dimensions less than md breakpoint) ======= -->
+    <section class="container d-block d-md-none">
+      <div class="box-shadow-full bg-white">
+        <form action="" method="get" id="form-country" class="mb-3">
+          <label for="country" class="label-control h2 mb-3">
+            Selecione um país
+          </label>
+          <select name="country" id="select-country" class="form-select">
+            <optgroup label="Países Aliados">
+              <option value="US" selected>Estados Unidos</option>
+              <option value="UK">Inglaterra</option>
+              <option value="URSS">União Soviética</option>
+              <option value="FR">França</option>
+            </optgroup>
+            <optgroup label="Países do Eixo">
+              <option value="DE">Alemanha</option>
+              <option value="JP">Japão</option>
+              <option value="IT">Itália</option>
+            </optgroup>
+          </select>
+        </form>
+        <div id="about-country"></div>
+      </div>
     </section>
 
     <!-- ======= Counter Section ======= -->
@@ -233,7 +262,7 @@
                 <div class="post-author">
                   <a href="#">
                     <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
+                    <span class="author">Felipe Erik</span>
                   </a>
                 </div>
                 <div class="post-date">
@@ -266,7 +295,7 @@
                 <div class="post-author">
                   <a href="#">
                     <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
+                    <span class="author">Felipe Erik</span>
                   </a>
                 </div>
                 <div class="post-date">
@@ -278,7 +307,7 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="pages/blog-pianist.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
+                <a href="./pages/pages/blog-pianist.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -298,11 +327,11 @@
                 <div class="post-author">
                   <a href="#">
                     <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
+                    <span class="author">Akemi Adam</span>
                   </a>
                 </div>
                 <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
+                  <span class="bi bi-clock"></span> 7 min
                 </div>
               </div>
             </div>
@@ -347,6 +376,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="./assets/js/script.js"></script>
 
 </body>
 
