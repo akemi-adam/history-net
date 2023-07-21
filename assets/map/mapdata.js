@@ -191,7 +191,7 @@ var simplemaps_worldmap_mapdata = {
       name: "Czech Republic"
     },
     DE: {
-      name: "Germany",
+      name: "Alemanha",
       color: "#ef6048",
       hover_color: "#d7371d",
       description: "A Alemanha, liderada por Adolf Hitler, foi a principal força do Eixo na Segunda Guerra Mundial. Buscando a expansão territorial e a implementação de sua ideologia nazista, a Alemanha invadiu diversos países europeus e travou batalhas significativas, mas acabou derrotada pelos Aliados.",
@@ -304,7 +304,7 @@ var simplemaps_worldmap_mapdata = {
       name: "Israel"
     },
     IT: {
-      name: "Italy",
+      name: "Itália",
       color: "#ef6048",
       hover_color: "#d7371d",
       description: "A Itália, governada por Benito Mussolini, foi um aliado da Alemanha nazista. Apesar de ter participado de algumas campanhas militares bem-sucedidas no início da guerra, como a invasão da Albânia, a Itália sofreu várias derrotas e seu apoio aos alemães acabou se enfraquecendo à medida que a guerra progredia.",
@@ -317,7 +317,7 @@ var simplemaps_worldmap_mapdata = {
       name: "Jordan"
     },
     JP: {
-      name: "Japan",
+      name: "Japão",
       color: "#ef6048",
       hover_color: "#d7371d",
       description: "O Japão, liderado pelo imperador Hirohito, também fez parte do Eixo. O país buscava a expansão territorial no Pacífico e lançou o ataque a Pearl Harbor em 1941, provocando a entrada dos Estados Unidos na guerra. No entanto, as derrotas nas batalhas navais de Midway e Guadalcanal e a pressão dos Aliados resultaram na rendição do Japão em 1945.",
