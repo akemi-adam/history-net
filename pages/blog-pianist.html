@@ -129,15 +129,13 @@
               <div class="title-box-2">
               <h4 class="title-comments title-left">Comentários</h4>
               </div>
-              <ul class="list-comments">
+              <ul class="list-comments" id="list-comments">
                 <li>
                   <div class="comment-avatar">
-                    <h4 class="comment-author">Oliver Colmenares</h4>
+                    <h4 class="comment-author">Pedro Iuri</h4>
                     <span>18 Sep 2017</span>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit, provident cumque
-                      ipsam temporibus maiores
-                      quae natus libero optio, at qui beatae ducimus placeat debitis voluptates amet corporis.
+                      Uma história emocionante!
                     </p>
                   </div>
                 </li>
@@ -156,18 +154,14 @@
                       <input type="text" class="form-control input-mf" id="inputName" placeholder="Nome *" required>
                     </div>
                   </div>
-                  <div class="col-md-6 mb-3">
-                    <div class="form-group">
-                      <input type="email" class="form-control input-mf" id="inputEmail1" placeholder="Email *" required>
-                    </div>
-                  </div>
+
                   <div class="col-md-12 mb-3">
                     <div class="form-group">
                       <textarea id="textMessage" class="form-control input-mf" placeholder="Comentário *" name="message" cols="45" rows="8" required></textarea>
                     </div>
                   </div>
                   <div class="col-md-12">
-                    <button type="submit" class="button button-a button-big button-rouded">Comentar</button>
+                    <button type="button" class="button button-a button-big button-rouded" id="commentButton">Comentar</button>
                   </div>
                 </div>
               </form>
@@ -251,7 +245,7 @@
 
   <!-- Template Main JS File -->
   <script src="./../assets/js/main.js"></script>
-
+  <script src="./../assets/js/comment.js"></script>
 </body>
 
 </html>
