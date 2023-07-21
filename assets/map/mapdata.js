@@ -1,4 +1,13 @@
-var simplemaps_worldmap_mapdata={
+let uri = window.location.href;
+
+let baseUri = './'
+
+if (uri.includes('github.io'))
+  baseUri = 'https://akemi-adam.github.io/pages/'
+else if (uri.includes('localhost:8000"'))
+  baseUri = 'http://localhost:8000/pages/'
+
+var simplemaps_worldmap_mapdata = {
   main_settings: {
    //General settings
     width: "responsive", //'700' or 'responsive'
@@ -186,7 +195,7 @@ var simplemaps_worldmap_mapdata={
       color: "#ef6048",
       hover_color: "#d7371d",
       description: "A Alemanha, liderada por Adolf Hitler, foi a principal força do Eixo na Segunda Guerra Mundial. Buscando a expansão territorial e a implementação de sua ideologia nazista, a Alemanha invadiu diversos países europeus e travou batalhas significativas, mas acabou derrotada pelos Aliados.",
-      url: "http://localhost:8000/about-germany.html"
+      url: `${baseUri}pages/alemanha.html`
     },
     DJ: {
       name: "Djibouti"
@@ -229,7 +238,7 @@ var simplemaps_worldmap_mapdata={
       color: "#5f94c0",
       hover_color: "#346690",
       description: "Liderado por Churchill, o Reino Unido resistiu à Alemanha nazista desde o início da guerra, defendendo-se na Batalha da Grã-Bretanha e liderando operações aliadas na Europa Ocidental, desempenhando um papel essencial na derrota do Eixo.",
-      url: "http://localhost:8000/about-uk.html"
+      url: `${baseUri}pages/reinounido.html`
     },
     GE: {
       name: "Georgia"
@@ -299,7 +308,7 @@ var simplemaps_worldmap_mapdata={
       color: "#ef6048",
       hover_color: "#d7371d",
       description: "A Itália, governada por Benito Mussolini, foi um aliado da Alemanha nazista. Apesar de ter participado de algumas campanhas militares bem-sucedidas no início da guerra, como a invasão da Albânia, a Itália sofreu várias derrotas e seu apoio aos alemães acabou se enfraquecendo à medida que a guerra progredia.",
-      url: "http://localhost:8000/about-italy.html"
+      url: `${baseUri}pages/italia.html`
     },
     JM: {
       name: "Jamaica"
@@ -312,7 +321,7 @@ var simplemaps_worldmap_mapdata={
       color: "#ef6048",
       hover_color: "#d7371d",
       description: "O Japão, liderado pelo imperador Hirohito, também fez parte do Eixo. O país buscava a expansão territorial no Pacífico e lançou o ataque a Pearl Harbor em 1941, provocando a entrada dos Estados Unidos na guerra. No entanto, as derrotas nas batalhas navais de Midway e Guadalcanal e a pressão dos Aliados resultaram na rendição do Japão em 1945.",
-      url: "http://localhost:8000/about-japan.html"
+      url: `${baseUri}pages/japao.html`
     },
     KZ: {
       name: "Kazakhstan"
@@ -466,7 +475,7 @@ var simplemaps_worldmap_mapdata={
       color: "#5f94c0",
       hover_color: "#346690",
       description: "A União Soviética, liderada por Joseph Stalin, foi um aliado crucial na Segunda Guerra Mundial, resistindo à invasão alemã e contribuindo para a derrota da Alemanha nazista com sua força militar e produção industrial.",
-      url: "http://localhost:8000/about-urss.html"
+      url: `${baseUri}pages/uniaosovietica.html`
     },
     RW: {
       name: "Rwanda"
@@ -557,7 +566,7 @@ var simplemaps_worldmap_mapdata={
       color: "#5f94c0",
       hover_color: "#346690",
       description: "Os Estados Unidos, sob a liderança de Roosevelt, entraram na guerra em 1941 após o ataque a Pearl Harbor, fornecendo apoio crucial aos Aliados com sua indústria poderosa, recursos econômicos e militares, liderando a invasão da Normandia e contribuindo para a derrota do Eixo.",
-      url: "http://localhost:8000/about-us.html"
+      url: `${baseUri}pages/estadosunidos.html`
     },
     UZ: {
       name: "Uzbekistan"
@@ -594,7 +603,7 @@ var simplemaps_worldmap_mapdata={
       hover_color: "#346690",
       color: "#5f94c0",
       description: "Após a ocupação alemã em 1940, a França continuou lutando como parte da Resistência Francesa e apoiou os Aliados com tropas coloniais e recursos durante a libertação da Europa, desempenhando um papel importante na retomada do território francês.",
-      url: "http://localhost:8000/about-france.html"
+      url: `${baseUri}pages/franca.html`
     },
     ES: {
       name: "Spain"
