@@ -20,11 +20,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ff0000;
+  color: #e84651;
 }
 
 a {
-  color: #ff0000;
+  color: #e84651;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -464,7 +464,7 @@ a:hover {
 }
 
 #header .logo a {
-  color: #E20E0F;
+  color: #e84651;
 }
 
 #header .logo img {
