@@ -1147,7 +1147,7 @@ a:hover {
 .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #E84651;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1444,7 +1444,7 @@ a:hover {
 --------------------------------------------------------------*/
 footer {
   text-align: center;
-  color: #b60c0c;
+  color: #E84651;
   padding: 25px 0;
   background: #000000;
 }
@@ -1458,5 +1458,5 @@ footer .credits {
 }
 
 footer .credits a {
-  color: #b60c0c;
+  color: #E84651;
 }
